@@ -1,3 +1,13 @@
+/*
+ * author: 陳思穎
+ * student ID: H34001165
+ * date: 2014/06/25
+ *
+ * Use real‐price housing information in our country,
+ * and find the average of all sale prices 
+ * matching the condition as the arguments(鄉鎮市區, Road_Name, Year).
+ */
+
 import org.json.*;
 import java.net.*;
 import java.io.*;
@@ -22,6 +32,7 @@ public class TocHw3 {
 		Pattern dis_pattern = Pattern.compile(dis_patt);
 		Pattern road_pattern = Pattern.compile(road_patt);
 		
+		// get json file
 		URL data_url = new URL(url);
 		URLConnection url_con = data_url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(
