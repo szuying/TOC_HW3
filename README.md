@@ -4,5 +4,5 @@ Use real‐price housing information in our country, and find the aver
 #USAGE
 ```java
 ant -f /home/TOC/ANT/toc3/build.xml build -Darg 學號
-java –jar TocHw3.jar URL 鄉鎮市區 Road_Name Year
+java -jar TocHw3.jar URL 鄉鎮市區 Road_Name Year
 ```
